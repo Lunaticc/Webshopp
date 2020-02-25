@@ -1,14 +1,260 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
-</head>
-<body>
-    
-</body>
-</html>
+<ul lang="sv">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/components.css">
+        <link rel="stylesheet" href="stylesheets/homepage.css">
+        <link rel="stylesheet" href="stylesheets/variables.css">
+        <link rel="stylesheet" href="stylesheets/typography.css">
+        <link rel="stylesheet" href="stylesheets/footer.css">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Zana skateboards</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="main__nav-container shadow">
+
+
+                <img src="/img/zanaljus.png" alt="Zana skateboard logo" class="main__nav-logo-container">
+                <p class="ingress__paragraph">
+                    Snygga <span class="skateboard__span" id="skateboards">skateboards</span> till låga priser
+                </p>
+
+
+
+                <ul class="main__nav-list">
+                    <li class="main__nav-links">Hem<a href="#"></a></li>
+                    <li class="main__nav-links">Om oss<a href="#"></a></li>
+                    <li class="main__nav-links">Kundvagn<a href="#"></a></li>
+                    <img src="/img/cart.png" alt="Cart for skateboards" class="cart__img">
+                </ul>
+                <div class="main__nav-btn-container">
+                    <a href="#"><button class="nav__btn">Logga in</button></a>
+                </div>
+            </nav>
+
+            <nav class="category__nav-container shadow">
+
+                <ul class="category__nav-container--ul">
+                    <li class="category__nav-link nav-link-paket"><a href="#">Paket</a>
+                        <!-- <div class="dropdown-container">
+                      
+                    <a href="#"><p  class="dropdown-item">Skateboard 1</p></a>
+                    <a href="#"><p  class="dropdown-item">Skateboard 1</p></a>
+                    <a href="#"><p  class="dropdown-item">Skateboard 1</p></a>
+                    <a href="#"><p  class="dropdown-item">Skateboard 1</p></a>
+                </div> -->
+
+                    </li>
+                    <li class="category__nav-link nav-link-paket"><a href="#">Brädor</a>
+                        <div class="dropdown-container">
+
+                            <a href="#">
+                                <p class="dropdown-item">Enuff Classic Fade</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Zero Legacy</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Svorn Romeo</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Blueprint Babushka</p>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="category__nav-link nav-link-paket"><a href="#">Kullager</a>
+                        <div class="dropdown-container">
+                            <a href="#">
+                                <p class="dropdown-item">Enuff Decade</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Atlas Street</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Bullet</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Independent</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="category__nav-link nav-link-paket"><a href="#">Truckar</a>
+                        <div class="dropdown-container">
+
+                            <a href="#">
+                                <p class="dropdown-item">Enuff Decade</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Atlas Street</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Bullet</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Independent</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="category__nav-link nav-link-paket"><a href="#">Hjul</a>
+                        <div class="dropdown-container">
+
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="category__nav-link nav-link-paket"><a href="#">Tillbehör</a>
+                        <div class="dropdown-container">
+
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                            <a href="#">
+                                <p class="dropdown-item">Skateboard 1</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="breadcrumbs">
+                    <a href="#" id="breadcrumbs__nav">Hem></a>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <main class="main">
+
+
+            <div class="content-container">
+                <div class="gallery-container">
+                    <s id="s1"></s>
+                    <s id="s2"></s>
+                    <s id="s3"></s>
+
+                    <div class="slider-container-stor shadow">
+                        <div class="slider__img-container">
+                            <img src="/img/skateboarder.jpg" alt="Skateboardbild1">
+                        </div>
+                        <div class="slider__img-container">
+                            <img src="/img/skateboarder2.jpg" alt="Skateboardbild2">
+                        </div>
+                        <div class="slider__img-container">
+                            <img src="/img/skateboarder3.jpg" alt="Skateboardbild3">
+
+                        </div>
+                    </div>
+
+                    <div class="prevNext shadow">
+
+                        <div class="btn1"><a href="#s3"><svg class="chevron__icon--large icon-left">
+                                    <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                                </svg></a><a href="#s2"><svg class="chevron__icon--large">
+                                    <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                                </svg></a></div>
+
+                        <div class="btn2"><a href="#s1"><svg class="chevron__icon--large icon-left">
+                                    <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                                </svg></a><a href="#s3"><svg class="chevron__icon--large">
+                                    <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                                </svg></a></div>
+
+                        <div class="btn3"><a href="#s2"><svg class="chevron__icon--large icon-left">
+                                    <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                                </svg></a><a href="#s1"><svg class="chevron__icon--large">
+                                    <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+                                </svg></a></div>
+                    </div>
+                </div>
+         
+            <div class="introduction-container">
+                <h1 class="primary__header">Välkommen till ZANA!</h1>
+                <p class="primary__paragraph">Vi är nordens största återförsäljare av skateboards. Här hittar du allt för skateboardentusiasten, vare sig det handlar om
+                    kompletta brädor, truckar, hjul, kullager eller övriga tillbehör. Vi har butiker i Stockholm, Göteborg, Malmö samt webshoppen du besöker just nu. Vi erbjuder fri
+                frakt på alla ordrar och snabb/trygg leverans över hela landet! </p>
+            </div>
+
+                <div class="paragraph__img-container">
+                    <div class="content__paragraph-container">
+                        <h2 class="secondary__header">Lär dig kickflip:</h2>
+                        <p class="primary__paragraph">Denna vecka i Zana´s trick-skola gör vi en detaljerad steg-för-steg guide för en kickflip.</p>
+                        <p class="primary__paragraph">
+                            Har du fastnat vid ollien? Tricket kickflip är inte så svårt som det kan se ut, efter denna guide kommer du kunna flippa lika enkelt som Tony Örn!</p>
+
+                        <a href="#" target="_blank"><button class="nav__btn">Läs mer...</button></a>
+                    </div>
+                    <div class="content__img-container">
+                        <img src="/img/kickflipkid.jpg" alt="Skateboarding kid" class="article__img">
+
+                    </div>
+                </div>
+
+                <div class="category-container">
+                    <div class="category-card">
+                        <h3 class="category__header">Paket</h3>
+                        <img src="/img/boardscomplete.png" alt="Skateboard paket" class="category-card__img">
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category__header">Brädor</h3>
+                        <img src="/img/brada.png" alt="Skateboard brädor" class="category-card__img">
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category__header">Kullager</h3>
+                        <img src="/img/kullager.png" alt="Skateboard kullager" class="category-card__img">
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category__header">Truckar</h3>
+                        <img src="/img/trucks.png" alt="Skateboard truckar" class="category-card__img">
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category__header">Hjul</h3>
+                        <img src="/img/hjul.png" alt="Skateboard Hjul" class="category-card__img">
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category__header">Tillbehör</h3>
+                        <img src="/img/griptape.jpg" alt="Skateboard tillbehör" class="category-card__img">
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 class="update__paragraph">Senast ändrad: 25februari</h3>
+        </main>
+
+
+        <footer class="footer-container">
+            <ul class="footer-container_ul">
+                <li class="footer-link"><a href="#">Support</a></li>
+                <li class="footer-link"><a href="#">Frakt/betalningsätt</a></li>
+                <li class="footer-link"><a href="#">Kontakt</a></li>
+                <li class="footer-link"><a href="#">Policies</a></li>
+                <li class="footer-link"><a href="#">Returer</a></li>
+                <img src="/img/trygg.png" alt="trygg e handel" class="small_footer-logo-container">
+            </ul>
+
+        </footer>
+
+    </body>
+</ul>

@@ -1,0 +1,17 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primary__header {
+    color: var(--color-primary);
+}
+
+.secondary__header {
+    color: var(--color-primary);
+    margin: .5rem 1rem;
+}
+
+.primary__paragraph {
+    margin: .5rem 1rem;
+    font-weight: 600;
+}

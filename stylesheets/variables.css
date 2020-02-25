@@ -1,0 +1,21 @@
+:root {
+
+    --margin-small: 0.5rem 1rem;
+    --margin-medium: 1em 2rem;
+    --margin-large: 2rem 4rem;
+    /******COLORS******/
+    --color-primary: #e25353;
+    --color-secondary: #4C6CEF;
+    --color-grey-dark: #6B6B6B;
+    --color-grey-light: #B6B6B6;
+    --color-white: #edf0f1;
+    --color-black: #24252A;
+    
+    --box-shadow-small: 5px 5px 5px rgba(0, 0, 0, 0.267);
+    --box-shadow-medium: 0 1rem 2rem rgba(0, 0, 0, .4);
+    --box-shadow-big: 0 2rem 4rem rgba(0, 0, 0, .4);
+    
+    
+}
+
+
